@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/linearLayout_horizontal"
+        android:title="@string/linear_layout_horizontal"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/linearLayout_vertical"
+        android:title="@string/linear_layout_vertical"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/grid_view"
+        android:title="@string/grid_view"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/staggeredview_horizontal"
+        android:title="@string/staggered_view_horizontal"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/staggeredview_vertical"
+        android:title="@string/staggered_view_vertical"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+</menu>
