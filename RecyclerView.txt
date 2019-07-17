@@ -1,0 +1,17 @@
+RecyclerView Layout:
+1. LinearLayout Manager
+2. GridLayout Manager
+3. Staggered GridLayout  Manager
+
+Classes:
+1. Adapter
+2. ViewHolder
+3. Layout Manager
+4. Item Decoretion
+5. Item Animation
+
+Steps to Follow :
+1 .Create The Data Source
+2. Define a Custom Adapter
+3. Setup RecyclerView in Xml and Java
+4. Link RecyclerView and our custom Adapter
