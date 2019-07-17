@@ -8,8 +8,20 @@ public class Data {
 
         ArrayList<Information> data = new ArrayList<>();
 
-        int[] image = {R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky,R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky,R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky};
-        String[] catagories = {"bird","kingfisher","green","deer","dog","frog","river","sky","bird","kingfisher","green","deer","dog","frog","river","sky","bird","kingfisher","green","deer","dog","frog","river","sky"};
+        int[] image = { R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,
+                        R.drawable.river,R.drawable.sky,R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,
+                        R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky,R.drawable.bird,R.drawable.kingfisher,
+                        R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky,
+                        R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,
+                        R.drawable.river,R.drawable.sky,R.drawable.bird,R.drawable.kingfisher,R.drawable.green,R.drawable.deer,
+                        R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky,R.drawable.bird,R.drawable.kingfisher,
+                        R.drawable.green,R.drawable.deer,R.drawable.dog,R.drawable.frog,R.drawable.river,R.drawable.sky};
+
+        String[] catagories = { "bird","kingfisher","green","deer","dog","frog","river","sky","bird","kingfisher","green",
+                                "deer","dog","frog","river","sky","bird","kingfisher","green","deer","dog","frog","river",
+                                "sky","bird","kingfisher","green","deer","dog","frog","river","sky","bird","kingfisher",
+                                "green","deer","dog","frog","river","sky","bird","kingfisher","green","deer","dog","frog",
+                                "river","sky"};
 
         for (int i=0;i<image.length;i++)
         {

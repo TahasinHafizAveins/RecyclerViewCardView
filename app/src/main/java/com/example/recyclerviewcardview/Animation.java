@@ -16,8 +16,8 @@ public class Animation {
         animatorTranslationY.setDuration(1000);
 
         ObjectAnimator animatorTranslationX = ObjectAnimator
-                .ofFloat(holder.itemView, "translationX",-50,50,-30,30,-20,20,-5,5,0);
-        animatorTranslationY.setDuration(1000);
+                .ofFloat(holder.itemView, "translationX",-100,100,-50,50,-40,40,-15,15,0);
+        animatorTranslationX.setDuration(1000);
 
         animatorSet.playTogether(animatorTranslationX,animatorTranslationY);
         //animatorSet.playTogether(animatorTranslationY);
